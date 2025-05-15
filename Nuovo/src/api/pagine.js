@@ -2,7 +2,7 @@ import axios from 'axios';
 import { extractAnchorsFromHTML } from '../utils/ancore';
 
 
-const API_URL = 'http://localhost/Nuovo/wp-json/wp/v2/pages';
+const API_URL = 'https:/www.dominionuovo.cloud/formazione/Nuovo/wp-json/wp/v2/pages';
 
 // Pagine
 export const fetchPages = async () => {
@@ -29,8 +29,7 @@ export const fetchPages = async () => {
     }
 };
 
-//###################################################################################################################
-
+//##################################################################################################################
 export function buildPageTree(pages) {
     const pagesById = {};
     const rootPages = [];
