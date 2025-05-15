@@ -20,6 +20,11 @@ const VideoEmbed = ({ src, index }) => {
                                 origin: window.location.origin,
                             },
                         },
+                        vimeo: {
+                            playerOptions: {
+                                responsive: true,
+                            },
+                        },
                     }}
                 />
             </div>
